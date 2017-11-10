@@ -1,0 +1,52 @@
+body {
+  font-family: serif;
+  background: #edc298;
+  margin: 40px;
+}
+
+table {
+  border: 1.5px solid grey;
+  margin: 20px auto;
+  width: 500px;
+}
+
+th {
+  padding: 10px 10px 0px 10px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: -1px 0px;
+}
+
+td {
+  padding: 0px 10px 10px 10px;
+  border-right: 1px solid grey;
+  margin: -1px 0px;
+}
+
+div {
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.left-area {
+  float: left;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+input[name="comment"]{
+  height: 200px;
+  width: 300px;
+}
+
+input[type="button"] {
+  width: 100px;
+  height: 200px;
+  margin: auto;
+  border-radius: 10px;
+}
